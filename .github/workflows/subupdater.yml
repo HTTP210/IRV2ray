@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Check The Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v
       - name: Get Files
         run: |
           curl -o vmess.txt -LJO "https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/base64/vmess"
